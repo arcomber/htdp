@@ -20,6 +20,10 @@
 ;;some other solution.  Book should have discussed this or not used this as an 
 ;;exercise at this stage in learning lisp.
 
+;;This suggestion from Matthias Felleisen (author) fixes:
+(define (equation3a n)
+ (=~ (* 2 n n) 102 .001))
+
 ;; equation4 : number  ->  boolean
 ;; to determine whether n is a solution for 4n^2  + 6n + 2 =  462
 (define (equation4 n)
